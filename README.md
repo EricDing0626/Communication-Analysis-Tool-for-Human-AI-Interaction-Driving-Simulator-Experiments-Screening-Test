@@ -8,7 +8,7 @@
 - *pandas*
 - *matplotlib*
 - *pocketsphinx*
-- ffmpeg*
+- *ffmpeg*
 
 ## Execution Instructions
 1. **Set up the environment**
