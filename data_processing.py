@@ -6,6 +6,15 @@ This program processes video files (with audio from a simulated environment) by:
     - Mapping each transcription to its starting timestamp in the video.
     - Analyzing the sentiment of each transcribed line with NLTK's VADER sentiment analyzer.
     - Saving the transcription, timestamp, sentiment classification, and additional details into a CSV file.
+
+Requirements:
+    - moviepy
+    - speech_recognition
+    - pydub
+    - nltk
+    - pandas
+    - pocketsphinx 
+    - ffmpeg 
 """
 
 import os
