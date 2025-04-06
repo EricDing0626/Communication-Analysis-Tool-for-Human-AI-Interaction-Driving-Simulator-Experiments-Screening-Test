@@ -186,7 +186,7 @@ def process_dataset(dataset_folder, output_folder):
 
 if __name__ == "__main__":
     # Define the folder containing video files (update this path as needed)
-    dataset_folder = "path_to_video_files"  # e.g., "data/videos"
+    dataset_folder = "data/videos" 
     # Define the folder where output CSV files will be stored
     output_folder = "output_csv"
     # Process the entire dataset
