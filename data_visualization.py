@@ -78,7 +78,7 @@ def plot_sentiment_distribution(csv_file):
 
 if __name__ == "__main__":
     # Define the path to the CSV file generated from Program 1.
-    csv_file_path = "output_csv/your_generated_file.csv"  # Replace with your actual CSV file path
+    csv_file_path = "output_csv/generated_file.csv"
     
     # Generate and display the histogram of transcribed words per 5-second bucket.
     plot_histogram(csv_file_path)
