@@ -1,6 +1,4 @@
 """
-Communication Analysis Tool for Human-AI Interaction Driving Simulator Experiments – Screening Test
-
 This program processes video files (with audio from a simulated environment) by:
     - Extracting audio from each video using MoviePy.
     - Segmenting the audio into chunks no longer than 5 seconds.
@@ -8,17 +6,6 @@ This program processes video files (with audio from a simulated environment) by:
     - Mapping each transcription to its starting timestamp in the video.
     - Analyzing the sentiment of each transcribed line with NLTK's VADER sentiment analyzer.
     - Saving the transcription, timestamp, sentiment classification, and additional details into a CSV file.
-
-The program is structured to allow scalability over many video files.
-
-Requirements:
-    - moviepy
-    - speech_recognition
-    - pydub
-    - nltk
-    - pandas
-    - pocketsphinx (for offline recognition)
-    - (Optionally) ffmpeg installed in the system for moviepy and pydub to work properly.
 """
 
 import os
